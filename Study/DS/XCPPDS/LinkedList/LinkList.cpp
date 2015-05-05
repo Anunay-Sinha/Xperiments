@@ -158,18 +158,3 @@ LinkList::~LinkList(void)
 
 
 
-
-int main()
-{
-	LinkList list;
-	list.pushBack(10);
-	list.pushBack(20);
-	list.pushBack(30);
-	list.pushBack(40);
-	list.insert(4,25);
-	list.printList();
-	//list.delete_(4);
-	list.recReverse(&list._head);
-	list.printList();
-	return -1;
-}
